@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    margin-top: 27px;
+ 
+}
+.logo h1{
+    margin-left: 60px;
+}
+.main{
+  display:flex;
+  justify-content:space-between;
+  background: rgb(255, 228, 196);
+ 
+}
+
+.about,ul,li{
+    margin: 10px;
+    padding: 2px 10px;
+    display: flex;
+}
+.about a {
+     color: black;
+    text-decoration: none;
+    
+}
+.icons{  
+    margin-top: 12px;
+    margin-left: 35px;
+}
+h1:hover, a:hover {
+    color: blue;
+}
+.container{
+    color: rgb(20, 19, 19);
+    display: flex;
+}
+.container .pic{
+    background-image: url('../image/puuu.jpg');
+    background-size: cover;
+    width: 380px;
+    height: 360px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+.container .hello{
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: 30px;
+  
+  
+    
+}
+.container .onetwo{
+    display: flex;
+}
+.container .one{
+    font-size: 25px;
+    width: 70px;
+    height: 38px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(236, 175, 8);
+    border-radius: 50%;
+   
+}
+
+.container .two{
+    font-size: 25px;
+    width: 70px;
+    height: 38px;
+    margin-top: 40px;
+    margin-left: 60px;
+    padding: 20px;
+    background-color: rgb(0, 81, 255);
+    border-radius: 50%;
+   
+}
+.container .para{
+    margin-top: 20px;
+}
+
+.footer{
+    background:rgb(184, 129, 129);
+    bottom: 0;
+}
+.footer .foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    margin-top: 70px;
+    padding: 25px;
+    font-size: 24px;
+}
+.num{
+    display: flex;
+}
+.foot .icon1 .num1{
+    color: #0ec91d;
+}
+.foot .icon1 .num2{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: black;
+
+}
+.icon2 a{
+    color: rgb(0, 38, 255);
+}
+
+.icon3{
+    color: red;
+}
+.icon4{
+    color: ;
+}
